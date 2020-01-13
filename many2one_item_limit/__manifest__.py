@@ -17,6 +17,7 @@
     # for the full list
     'category': 'Uncategorized',
     'version': '1.0',
+    'license': 'AGPL-3',
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'base_setup'],
@@ -26,9 +27,5 @@
         'data/config_data.xml',
         'views/views.xml',
         'views/many2one_item_limit_view.xml',
-    ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
     ],
 }
