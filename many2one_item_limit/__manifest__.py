@@ -16,7 +16,7 @@
     # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '1.0',
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'base_setup'],
@@ -25,7 +25,7 @@
     'data': [
         'data/config_data.xml',
         'views/views.xml',
-        'views/manyone_item_limit_view.xml',
+        'views/many2one_item_limit_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
